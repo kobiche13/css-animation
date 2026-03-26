@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json  # иногда включают, иногда нет
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Файлы сборки
+dist/
+build/
+coverage/

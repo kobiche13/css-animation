@@ -1,0 +1,48 @@
+.container-widget{
+    display: flex;
+    width: min(100%, 400px);
+    flex-direction: column;
+    padding: 50px;    
+    gap: 20px;
+}
+
+.container-widget__btn{
+    width: 150px;
+    height: 50px;
+    background-color:#0429d3;
+    color: white;
+    border: 2px solid aqua;
+    border-radius: 18px;
+}
+
+.container-widget__btn:hover{
+    background-color:#0824a4;
+    cursor: pointer;
+}
+
+.container-widget__text-box{
+
+    display: block;
+    padding: 20px;
+    border: 1px solid gray;
+    transition: height 3s;
+    height: 0;
+}
+
+.activate{
+    animation-name: activate;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes activate {
+    from {
+       height: 0;
+      }
+    
+      
+    to {
+        height: 60px;
+    }
+}
