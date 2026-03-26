@@ -1,0 +1,35 @@
+{
+  "name": "animation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open"
+  },
+  "author": "kobiche",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^9.39.4",
+    "babel-loader": "^10.1.1",
+    "eslint": "^9.39.4",
+    "eslint-webpack-plugin": "^5.0.3",
+    "globals": "^17.4.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "css-loader": "^7.1.4",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "mini-css-extract-plugin": "^2.10.1",
+    "style-loader": "^4.0.0",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
