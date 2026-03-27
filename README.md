@@ -1,1 +1,1 @@
-[![CI](https://github.com/kobiche13/css-animation/actions/workflows/ci.yml/badge.svg)](https://github.com/kobiche13/css-animation/actions/workflows/ci.yml)
+![CI](https://github.com/kobiche13/css-animation/actions/workflows/ci.yml/badge.svg)
