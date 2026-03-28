@@ -1,1 +1,2 @@
 [![CI CSS Animation](https://github.com/kobiche13/css-animation/actions/workflows/main.yml/badge.svg)](https://github.com/kobiche13/css-animation/actions/workflows/main.yml)
+https://kobiche13.github.io/css-animation/
