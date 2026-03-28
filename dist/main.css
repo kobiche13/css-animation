@@ -1,9 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
 .container-widget{
     display: flex;
     width: min(100%, 400px);
     flex-direction: column;
     padding: 50px;    
     gap: 20px;
+    background-color: white;
 }
 
 .container-widget__btn{
@@ -11,7 +15,7 @@
     height: 50px;
     background-color:#0429d3;
     color: white;
-    border: 2px solid aqua;
+    border: 1px solid aqua;
     border-radius: 18px;
 }
 
@@ -21,6 +25,44 @@
 }
 
 .container-widget__text-box{
-    padding: 20px;
-    border: 1px solid gray;
+    height: 0px;
+    overflow: hidden;
 }
+
+.activate{    
+    animation-name: activate;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    height: 90px;
+    
+
+}
+
+@keyframes activate {
+    0% {       
+        height: 0px;
+    } 
+      
+    50% {        
+        height: 90px;
+    }
+
+    100% {       
+        height: 0px;
+    } 
+
+}
+
+.text{
+    height: 0px;
+    display: block;
+    padding: 15px;
+    border: 1px solid gray;    
+}
+
+.text-activate{    
+    height: 55px;    
+}
+
+
+
